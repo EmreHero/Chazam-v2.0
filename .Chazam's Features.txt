@@ -1,0 +1,15 @@
+select file:
+- start butonu uygun dosya seçilince ortaya çıkıyor
+- seçilen dosya .wav uzantılı değilse error pop up'ı çıkıyor 
+- aşağıdaki durumlarda, önceden farklı bir dosya girilmişse, start butonu yazılan şeyleri (öneriler, genre) silinir eski haline getirilir:
+-- yeni şarkı seçince
+-- dosya seçmeden kapanırsa
+-- yanlış uzantılı dosya seçilirse
+
+start:
+- girilen sesi uygun formata getirir
+- tahminde bulunur
+- tahmin edilen genre'yi yazdırır
+- aynı genre'ye ait önceden verilmiş şarkılardan aynı olmayan 3 tanesini yazdırır
+- işlem bitince "start" yerine "done!" yazar
+- done! yazdığında butona basılsa da işlem yapılmaz, yeni dosya seçilmesi beklenir
